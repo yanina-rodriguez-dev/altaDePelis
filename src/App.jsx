@@ -1,6 +1,7 @@
 
 import './App.css'
 import {Container, Card} from "react-bootstrap";
+import FormularioPelicula from './components/FormularioPelicula';
 
 function App() {
  
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
      <Container>
-      
+      <FormularioPelicula></FormularioPelicula>
      </Container>
     </>
   )
